@@ -1,0 +1,19 @@
+{
+  "name": "pingo/php-pro",
+  "description": "php-pro",
+  "authors": [
+    {
+      "name": "Gabriel Almeida",
+      "email": "gabriel.alvikar@gmail.com"
+    }
+  ],
+  "require": {},
+  "autoload": {
+    "files": [
+      "app/helpers/constants.php"
+    ],
+    "psr-4": {
+      "app\\":"app"
+    }
+  }
+}
