@@ -18,16 +18,20 @@ body {
 
 ol,
 ul {
-    list-style: none;
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
 }
 
 img,
 video {
-    max-width: 100%;
+  max-width: 100%;
 }
 
 img {
-    border-style: none;
+  border-style: none;
 }
 
 [hidden] {
@@ -47,4 +51,21 @@ img {
   clip: rect(1px, 1px, 1px, 1px);
   left: -9999px;
   top: -9999px;
+}
+
+#header {
+  display: flex;
+  justify-content: space-between;
+}
+
+#menu-list {
+  display: flex;
+}
+
+#menu-list li {
+  margin-left: 15px;
+}
+
+#menu-list li:first-child {
+  margin-left: 0;
 }
